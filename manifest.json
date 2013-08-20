@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "DLP Library Pimp",
+  "description": "Pimp my (library) ride, yo.",
+  "version": "1.0",
+
+"content_scripts": [
+    {
+      "matches": ["https://forums.darklordpotter.net/*"],
+    "js": ["jquery-2.0.3.min.js", "pimp.js"]
+  }],
+  "permissions": [
+    "http://*.darklordpotter.net/",
+    "https://*.darklordpotter.net/"
+  ]
+}
